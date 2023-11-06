@@ -108,7 +108,7 @@ export const CandidateList = () => {
           </Button>
         </div>
       </ApplicationContainer> */}
-      <h2>List of all Candidates.</h2>
+      <h2>List of all Candidates</h2>
       {posts.map((post) => (
         <DisplayPost
           key={post._id}
