@@ -16,7 +16,7 @@ class CandidateService {
     if (!isAspain) {
       return {
         message:
-          'Your are not registered as an Aspian. Contact the administrator first, inorder to be registered\nWhatsapp: 677662876',
+          'Your are not registered as an Aspian. Contact the administrator first, inorder to be registered\nWhatsapp: 670650364',
       } as ErrorType;
     }
     // check if candidate with matricule exists
@@ -26,7 +26,7 @@ class CandidateService {
     if (candidateExists) {
       return {
         message:
-          'A user with this matricule already exists! Verify the matricule entered. In case of any problem, contact the administrator\nWhatsapp: 677662876',
+          'A user with this matricule already exists! Verify the matricule entered. In case of any problem, contact the administrator\nWhatsapp: 670650364',
       } as ErrorType;
     }
     // check if candidate with matricule exists
@@ -36,7 +36,7 @@ class CandidateService {
     if (voterExists) {
       return {
         message:
-          'A user with this matricule already exists! Verify the matricule entered. In case of any problem, contact the administrator\nWhatsapp: 677662876',
+          'A user with this matricule already exists! Verify the matricule entered. In case of any problem, contact the administrator\nWhatsapp: 670650364',
       } as ErrorType;
     }
     const candidateToAdd = {
