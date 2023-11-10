@@ -72,7 +72,7 @@ export const CandidateList = () => {
           </ApplicationContainer>
         )}
       </CandidateGuard>
-      {/* <ApplicationContainer>
+      <ApplicationContainer>
         <div>
           <h2>It is voting time! </h2>
           <Button
@@ -87,8 +87,8 @@ export const CandidateList = () => {
             Vote your candidates.
           </Button>
         </div>
-        <h3>When voting is over you will see the results here</h3>
-      </ApplicationContainer>  */}
+        <h3>Choose your leaders carefully, for they will determine the destiny of ASPY.</h3>
+      </ApplicationContainer>  
       {/* <ApplicationContainer>
         <h2>It is not yet voting time, when it is time we will notify you.</h2>
       </ApplicationContainer> */}
